@@ -1,0 +1,22 @@
+.nav-wrapper::before {
+    border-bottom-width: 12px;
+    opacity: 70%;
+}
+
+.navigate-item::before {
+    transition: all 0.2s ease;
+}
+
+.navigate-item:hover::before {
+    height: 100%;
+    border-bottom-width: 7px;
+    filter: blur(8px);
+}
+
+.navigate-item > span {
+    transition: transform 0.5s ease;
+}
+
+.navigate-item:hover > span {
+    transform: translateY(-4px);
+}

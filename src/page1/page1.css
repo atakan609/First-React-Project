@@ -1,0 +1,17 @@
+.page1 {
+    height: 122vh;
+    position: fixed;
+    top: -22vh;
+    width: 1536px;
+}
+
+.page1::before {
+    background: linear-gradient(rgb(15 23 42), rgb(15 23 42)) padding-box,
+              linear-gradient(to top, rgb(59 130 246) 40%, transparent 78%) border-box;
+    border: 2px solid transparent;
+}
+
+.photo {
+    aspect-ratio: 1/1;
+    width: 37%;
+}
